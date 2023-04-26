@@ -1,0 +1,6 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Access to an undefined property BombenProdukt\\\\StringPowerPack\\\\ServiceProvider\\:\\:\\$value\\.$#"
+			count: 1
+			path: src/ServiceProvider.php

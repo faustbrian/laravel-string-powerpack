@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace BombenProdukt\StringPowerPack\Macro;
+
+use Illuminate\Support\Str;
+
+final class DotCaseMacro implements MacroInterface
+{
+    public function run(string $string): string
+    {
+        return Str::of($string)->snake()->lower()->replace('_', '.')->toString();
+    }
+
+    public function names(): array
+    {
+        return [
+            'dotCase',
+        ];
+    }
+}
