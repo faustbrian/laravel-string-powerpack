@@ -18,9 +18,13 @@ final class ServiceProvider extends AbstractServiceProvider
             $instance = app($macro);
 
             foreach ($instance->names() as $name) {
-                Str::macro($name, fn (string $value): string => $instance->run($value));
+                if (!Str::hasMacro($name)) {
+                    Str::macro($name, fn (string $value): string => $instance->run($value));
+                }
 
-                Stringable::macro($name, fn (): Stringable => new Stringable($instance->run($this->value)));
+                if (!Stringable::hasMacro($name)) {
+                    Stringable::macro($name, fn (): Stringable => new Stringable($instance->run($this->value)));
+                }
             }
         }
     }
