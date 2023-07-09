@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/BombenProdukt/laravel-string-powerpack/actions">
+    <a href="https://github.com/faustbrian/laravel-string-powerpack/actions">
         <img src="https://badge.sh/github/check-runs/BombenProdukt/laravel-string-powerpack" alt="Checks" />
     </a>
     <a href="https://packagist.org/packages/bombenprodukt/laravel-string-powerpack">
@@ -21,7 +21,7 @@
 
 ## About Laravel String PowerPack
 
-This project was created by, and is maintained by [BombenProdukt](https://github.com/BombenProdukt), and is a collection of opinionated string functions for Laravel. Be sure to browse through the [changelog](CHANGELOG.md), [code of conduct](.github/CODE_OF_CONDUCT.md), [contribution guidelines](.github/CONTRIBUTING.md), [license](LICENSE), and [security policy](.github/SECURITY.md).
+This project was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and is a collection of opinionated string functions for Laravel. Be sure to browse through the [changelog](CHANGELOG.md), [code of conduct](.github/CODE_OF_CONDUCT.md), [contribution guidelines](.github/CONTRIBUTING.md), [license](LICENSE), and [security policy](.github/SECURITY.md).
 
 ## Installation
 
