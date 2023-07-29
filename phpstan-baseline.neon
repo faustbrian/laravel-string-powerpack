@@ -1,6 +1,11 @@
 parameters:
 	ignoreErrors:
 		-
+			message: "#^Only booleans are allowed in a ternary operator condition, int\\<0, 1\\> given\\.$#"
+			count: 1
+			path: src/Macro/SpongeCaseMacro.php
+
+		-
 			message: "#^Access to an undefined property BombenProdukt\\\\StringPowerPack\\\\ServiceProvider\\:\\:\\$value\\.$#"
 			count: 1
 			path: src/ServiceProvider.php
