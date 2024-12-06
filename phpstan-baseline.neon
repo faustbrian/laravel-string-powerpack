@@ -1,0 +1,371 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Access to protected property Illuminate\\\\Support\\\\Stringable\\:\\:\\$value\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Stringy\\\\ServiceProvider\\:\\:macros\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/ServiceProvider.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: tests/Pest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:acronym\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/AcronymMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:acronym\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/AcronymMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/AcronymMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:camelCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/CamelCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:camelCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/CamelCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/CamelCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:constantCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/ConstantCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:macroCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/ConstantCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:screamingSnakeCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/ConstantCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:constantCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/ConstantCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:macroCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/ConstantCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:screamingSnakeCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/ConstantCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 3
+			path: tests/Unit/ConstantCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:dotCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/DotCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:dotCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/DotCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/DotCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:headerCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/HeaderCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:headerCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/HeaderCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/HeaderCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:headlineCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/HeadlineCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:headlineCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/HeadlineCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/HeadlineCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:dashCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/KebabCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:hyphenCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/KebabCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:kebabCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/KebabCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:paramCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/KebabCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:dashCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/KebabCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:hyphenCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/KebabCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:kebabCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/KebabCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:paramCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/KebabCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 4
+			path: tests/Unit/KebabCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:lowerCaseFirst\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/LowerCaseFirstMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:lowerCaseFirst\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/LowerCaseFirstMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/LowerCaseFirstMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:lowerCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/LowerCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:lowerCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/LowerCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/LowerCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:noCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/NoCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:noCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/NoCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/NoCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:pascalCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/PascalCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:studlyCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/PascalCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:pascalCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/PascalCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:studlyCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/PascalCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 2
+			path: tests/Unit/PascalCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:pathCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/PathCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:pathCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/PathCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/PathCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:sentenceCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/SentenceCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:sentenceCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/SentenceCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/SentenceCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:snakeCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/SnakeCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:snakeCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/SnakeCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/SnakeCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:spongeCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/SpongeCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/SpongeCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:swapCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/SwapCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:swapCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/SwapCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/SwapCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:capitalCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/TitleCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:titleCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/TitleCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:capitalCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/TitleCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:titleCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/TitleCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 2
+			path: tests/Unit/TitleCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:upperCaseFirst\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/UpperCaseFirstMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:upperCaseFirst\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/UpperCaseFirstMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/UpperCaseFirstMacroTest.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Support\\\\Stringable\\:\\:upperCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/UpperCaseMacroTest.php
+
+		-
+			message: "#^Call to an undefined static method Illuminate\\\\Support\\\\Str\\:\\:upperCase\\(\\)\\.$#"
+			count: 1
+			path: tests/Unit/UpperCaseMacroTest.php
+
+		-
+			message: "#^Unable to resolve the template type TValue in call to function expect$#"
+			count: 1
+			path: tests/Unit/UpperCaseMacroTest.php
